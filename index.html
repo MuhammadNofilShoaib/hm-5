@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page">
+        <div id="form-section">
+            <h2>Name:</h2>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <h2>Email:</h2>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <h2>Phone No.:</h2>
+            <input type="text" id="phone" placeholder="Enter your phone no.">
+
+            <h2>Education:</h2>
+            <input type="text" id="education" placeholder="Enter your education">
+
+            <h2>Experience:</h2>
+            <input type="text" id="experience" placeholder="Enter your experience">
+
+            <h2>Skills:</h2>
+            <input type="text" id="skills" placeholder="Enter your skills">
+
+            <h2>Upload Photo:</h2>
+            <input type="file" id="photo" accept="image/*">
+
+            <br><br>
+            <button id="submitButton">Generate Resume</button>
+            <br>
+        </div>
+
+        <div id="resume-section" style="display: none;">
+            <div id="resumeDisplay"></div>
+            <div id="photoDisplay"></div>
+            <button id="editButton">Edit</button>
+            <button id="print">Download</button>
+            <button id="share">Share</button>
+            <p id="shareLink" style="display: none;"></p> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
